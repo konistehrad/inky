@@ -15,7 +15,7 @@ document.addEventListener("keydown", function(){
 $textBuffer = $("#player .innerText.active");
 
 function shouldAnimate() {
-    return $textBuffer.hasClass("active");
+    return false;
 }
 
 function showSessionView(sessionId) {
